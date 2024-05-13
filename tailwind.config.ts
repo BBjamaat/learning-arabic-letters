@@ -73,7 +73,7 @@ const config = {
                 "accordion-up": "accordion-up 0.2s ease-out",
             },
             fontFamily: {
-                arabic: ["NotoSansArabic", "Uthman", 'Arial', "sans-serif"],
+                arabic: ['Arial', "sans-serif"],
             }
         },
     },

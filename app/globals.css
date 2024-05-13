@@ -75,13 +75,3 @@
         @apply bg-background text-foreground;
     }
 }
-
-@font-face {
-    font-family: "Uthman";
-    src: url("/fonts/KFGQPC Uthman Taha Naskh Regular.ttf");
-}
-
-@font-face {
-    font-family: "NotoSansArabic";
-    src: url("/fonts/NotoSansArabic.ttf");
-}
