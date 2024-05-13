@@ -1,0 +1,118 @@
+[
+    {
+        "letter": "ا",
+        "traslation": "aliph"
+    },
+    {
+        "letter": "ب",
+        "traslation": "ba"
+    },
+    {
+        "letter": "ت",
+        "traslation": "ta"
+    },
+    {
+        "letter": "ث",
+        "traslation": "tha"
+    },
+    {
+        "letter": "ج",
+        "traslation": "jim"
+    },
+    {
+        "letter": "ح",
+        "traslation": "ha"
+    },
+    {
+        "letter": "خ",
+        "traslation": "kha"
+    },
+    {
+        "letter": "د",
+        "traslation": "dal"
+    },
+    {
+        "letter": "ذ",
+        "traslation": "dhal"
+    },
+    {
+        "letter": "ر",
+        "traslation": "ra"
+    },
+    {
+        "letter": "ز",
+        "traslation": "zay"
+    },
+    {
+        "letter": "س",
+        "traslation": "sin"
+    },
+    {
+        "letter": "ش",
+        "traslation": "shin"
+    },
+    {
+        "letter": "ص",
+        "traslation": "sad"
+    },
+    {
+        "letter": "ض",
+        "traslation": "dad"
+    },
+    {
+        "letter": "ط",
+        "traslation": "ta"
+    },
+    {
+        "letter": "ظ",
+        "traslation": "za"
+    },
+    {
+        "letter": "ع",
+        "traslation": "'ain"
+    },
+    {
+        "letter": "غ",
+        "traslation": "ghain"
+    },
+    {
+        "letter": "ف",
+        "traslation": "fa"
+    },
+    {
+        "letter": "ق",
+        "traslation": "qaf"
+    },
+    {
+        "letter": "ك",
+        "traslation": "kaf"
+    },
+    {
+        "letter": "ل",
+        "traslation": "lam"
+    },
+    {
+        "letter": "م",
+        "traslation": "mim"
+    },
+    {
+        "letter": "ن",
+        "traslation": "nun"
+    },
+    {
+        "letter": "و",
+        "traslation": "waw"
+    },
+    {
+        "letter": "ه",
+        "traslation": "ha"
+    },
+    {
+        "letter": "ء",
+        "traslation": "hamza"
+    },
+    {
+        "letter": "ي",
+        "traslation": "ya"
+    }
+]
