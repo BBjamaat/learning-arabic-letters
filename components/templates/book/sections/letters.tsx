@@ -1,5 +1,5 @@
-import { Separator } from "@/components/ui/separator";
 import Word from "../word";
+import { Separator } from "@/components/ui/separator";
 import letters from "@/assets/letters.json";
 
 

@@ -1,5 +1,6 @@
 import SectionAlphabet from "./sections/alphabet";
 import SectionLetters from "./sections/letters";
+import SectionMaad from "./sections/maad";
 
 
 const BookTemplate = () => {
@@ -14,6 +15,7 @@ const BookTemplate = () => {
 
             <SectionAlphabet />
             <SectionLetters />
+            <SectionMaad />
         </div >
     </div >
 }
