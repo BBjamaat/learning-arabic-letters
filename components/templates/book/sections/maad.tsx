@@ -29,7 +29,7 @@ const SectionMaad = () => {
                             <div className="flex flex-col gap-16 flex-1">
                                 {maad.practice.filter((_, i) => i % 3 == colIndex).map((exs, index) =>
                                     <div key={index} className="grid grid-cols-3">
-                                        {exs.split(" ").map((ex, subindex) =>
+                                        {exs.split(" ").reverse().map((ex, subindex) =>
                                             <Word key={subindex} word={ex} letters={maad.letters} />
                                         )}
                                     </div>
