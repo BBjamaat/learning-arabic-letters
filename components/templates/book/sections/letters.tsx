@@ -20,7 +20,7 @@ const SectionLetters = () => {
                             </div>
                         )}
                         {(letter?.important) && (<>
-                            <div className="text-base">
+                            <div className="text-sm px-6">
                                 Pay attention to the following examples:
                             </div>
                             <div className="w-full flex justify-evenly items-center flex-row-reverse flex-wrap gap-16 p-6">

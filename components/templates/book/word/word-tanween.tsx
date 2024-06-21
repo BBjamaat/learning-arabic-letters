@@ -8,7 +8,7 @@ interface WordProps {
 const TanweenWord: FC<WordProps> = ({ word }) => {
     return (
         <div className="relative m-auto">
-            <div className="absolute top-0 right-0 -z-10" style={{ WebkitTextStroke: ".15px white" }}>
+            <div className="absolute top-0 right-0 -z-10">
                 {word.split("").map((char, i, arr) => {
                     const colored = (i < arr.length - 1) && (
                         arr[i + 1].charCodeAt(0) === 1611 ||
@@ -17,7 +17,11 @@ const TanweenWord: FC<WordProps> = ({ word }) => {
                     )
 
                     return (
-                        <span key={i} className={colored ? "text-red-500" : ""}>
+                        <span
+                            key={i}
+                            className={colored ? "text-red-500" : ""}
+                            style={{ WebkitTextStroke: !colored ? ".15px white" : "" }}
+                        >
                             {char}
                         </span>
                     );

@@ -3,10 +3,9 @@ import { FC } from "react";
 interface WordProps {
     word: string;
     letter?: string;
-    letters?: string[];
 }
 
-const Word: FC<WordProps> = ({ word, letter, letters }) => {
+const Word: FC<WordProps> = ({ word, letter }) => {
     const noTashkeel = word.replace(/[\u064B-\u0652]/g, "");
 
     return (
@@ -16,7 +15,7 @@ const Word: FC<WordProps> = ({ word, letter, letters }) => {
             </div>
             <div className="select-none">
                 {noTashkeel.split("").map((char, index) => {
-                    const colored = letters?.includes(char) || letter === char;
+                    const colored = letter === char;
                     return (
                         <span key={index} className={colored ? "text-red-500" : ""}>
                             {char}
