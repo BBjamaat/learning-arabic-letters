@@ -6,12 +6,12 @@ import alphabet from "@/assets/alphabet.json";
 
 const SectionLetters = () => {
     return (
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-4">
             {letters.map((letter, index) => {
                 const letterName = alphabet.find((l) => l.letter === letter.letter)?.traslation;
 
                 return (<>
-                    <Separator className="mb-4" key={index + "sep"} />
+                    <Separator className="" key={index + "sep"} />
                     <div className="flex flex-col gap-6 font-arabic text-4xl" key={index}>
                         <div className="w-full text-center">
                             <span className="text-2xl capitalize">
