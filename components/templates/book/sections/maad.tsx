@@ -24,7 +24,7 @@ const SectionMaad = () => {
                     ))}
                 </div>
                 {(maad.practice.length > 0) && (
-                    <div className="w-full flex justify-evenly items-strech gap-8 p-6">
+                    <div className="w-full flex justify-evenly items-strech gap-8 p-6 max-sm:flex-col">
                         {[...Array(3)].map((_, colIndex) => (<>
                             <div className="flex flex-col gap-16 flex-1" key={colIndex}>
                                 {maad.practice.filter((_, i) => i % 3 == colIndex).map((exs, index) =>
