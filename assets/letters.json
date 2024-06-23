@@ -1,7 +1,7 @@
 [
     {
         "letter": "ا",
-        "description": "",
+        "description": "This letter has three variants, depending on where the diacritic is placed. Alif with the diacritic above it is pronounced as /a/. Alif with the diacritic below it is pronounced as /e/. Alif with the diacritic و above it is pronounced as /u/.",
         "examples": [
             "أَ",
             "إِ",
@@ -15,7 +15,7 @@
     },
     {
         "letter": "ر",
-        "description": "",
+        "description": "It is formed when the forefront of the back of the toungue touches the roof of the mouth. The letter is pronounced as /r/.",
         "examples": [
             "رَ",
             "ــرِ",
@@ -32,7 +32,7 @@
     },
     {
         "letter": "ز",
-        "description": "",
+        "description": "It is formed when the forefront of the back of the toungue is closer to the front teeth. The tip of the tongue is touching the lower front teeth. The letter is pronounced as /z/.",
         "examples": [
             "زَ",
             "ــزِ",
@@ -56,7 +56,7 @@
     },
     {
         "letter": "م",
-        "description": "",
+        "description": "It is formed when the lips are closed. The letter is pronounced as /m/.",
         "examples": [
             "مَــ",
             "ــمِــ",
@@ -81,7 +81,7 @@
     },
     {
         "letter": "ت",
-        "description": "",
+        "description": "It is formed when the forefront of the back of the toungue touches the base of the front upper teeth. The letter is pronounced as /t/.",
         "examples": [
             "تَــ",
             "ــتِــ",
@@ -106,7 +106,7 @@
     },
     {
         "letter": "ن",
-        "description": "",
+        "description": "It is formed when the forefront of the back of the toungue touches the upper front teeth. The letter is pronounced as /n/.",
         "examples": [
             "نَــ",
             "ــنِــ",
@@ -134,7 +134,7 @@
     },
     {
         "letter": "ي",
-        "description": "",
+        "description": "It is formed when the middle of the tongue is raised to the middle of the roof of the mouth, but does not touch it. The letter is pronounced as /y/.",
         "examples": [
             "يَــ",
             "ــيِــ",
@@ -160,7 +160,7 @@
     },
     {
         "letter": "ب",
-        "description": "",
+        "description": "It is formed when the lips are closed. The letter is pronounced as /b/.",
         "examples": [
             "بَــ",
             "ــبِــ",
@@ -186,7 +186,7 @@
     },
     {
         "letter": "ك",
-        "description": "",
+        "description": "It is formed when the root of the tongue touches the hard palate. The letter is pronounced as /k/.",
         "examples": [
             "كَــ",
             "ــكِــ",
@@ -218,7 +218,7 @@
     },
     {
         "letter": "ل",
-        "description": "",
+        "description": "It is formed when the forefront of the back of the toungue touches the front of the hard palate. The letter is pronounced as /l/.",
         "examples": [
             "لَــ",
             "ــلِــ",
@@ -252,7 +252,7 @@
     },
     {
         "letter": "و",
-        "description": "",
+        "description": "It is formed between the lips, but they are not closed. The letter is pronounced as /w/.",
         "examples": [
             "وَ",
             "ــوِ",
@@ -283,7 +283,7 @@
     },
     {
         "letter": "ه",
-        "description": "",
+        "description": "It is formed in the lower part of the throat. The letter is pronounced as /h/.",
         "examples": [
             "هَــ",
             "ــهِــ",
@@ -315,7 +315,7 @@
     },
     {
         "letter": "ف",
-        "description": "",
+        "description": "It is formed when the tips of the upper front teeth touch the inner part of the lower lip. The letter is pronounced as /f/.",
         "examples": [
             "فَــ",
             "ــفِــ",
@@ -348,7 +348,7 @@
     },
     {
         "letter": "ق",
-        "description": "",
+        "description": "It is formed when the root of the tongue touches the soft palate. The letter is pronounced as /q/.",
         "examples": [
             "قَــ",
             "ــقِــ",
@@ -381,7 +381,7 @@
     },
     {
         "letter": "ش",
-        "description": "",
+        "description": "It is formed when the middle of the tongue is raised to the middle of the roof of the mouth, but does not touch it. The letter is pronounced as /sh/.",
         "examples": [
             "شَــ",
             "ــشِــ",
@@ -413,7 +413,7 @@
     },
     {
         "letter": "س",
-        "description": "",
+        "description": "It is formed when the forefront of the back of the toungue is closer to the front teeth. The tip of the tongue is touching the lower front teeth. The letter is pronounced as /s/.",
         "examples": [
             "سَــ",
             "ــسِــ",
@@ -442,7 +442,7 @@
     },
     {
         "letter": "ث",
-        "description": "",
+        "description": "It is formed when the forefront of the back of the toungue touches the tips of the upper front teeth. The letter is pronounced as 'th' as in /think/.",
         "examples": [
             "ثَــ",
             "ــثِــ",
@@ -479,7 +479,7 @@
     },
     {
         "letter": "ص",
-        "description": "",
+        "description": "It is formed when the forefront of the back of the toungue is closer to the front teeth. The tip of the tongue is touching the lower front teeth. The letter is pronounced as /s/.",
         "examples": [
             "صَــ",
             "ــصِــ",
@@ -506,7 +506,7 @@
     },
     {
         "letter": "ط",
-        "description": "",
+        "description": "It is formed when the forefront of the back of the toungue touches the base of the front upper teeth. The letter is pronounced as a heavy /t/.",
         "examples": [
             "طَــ",
             "ــطِــ",
@@ -542,7 +542,7 @@
     },
     {
         "letter": "ج",
-        "description": "",
+        "description": "It is formed when the middle of the tongue is raised to the middle of the roof of the mouth, but does not touch it. The letter is pronounced as /j/.",
         "examples": [
             "جَــ",
             "ــجِــ",
@@ -569,7 +569,7 @@
     },
     {
         "letter": "خ",
-        "description": "",
+        "description": "It is formed in the upper part of the throat. The letter is pronounced as /kh/.",
         "examples": [
             "خَــ",
             "ــخِــ",
@@ -598,7 +598,7 @@
     },
     {
         "letter": "ح",
-        "description": "",
+        "description": "It is formed in the middle part of the throat. The letter is pronounced as /h/.",
         "examples": [
             "حَــ",
             "ــحِــ",
@@ -633,7 +633,7 @@
     },
     {
         "letter": "غ",
-        "description": "",
+        "description": "It is formed in the upper part of the throat. The letter is pronounced as /gh/.",
         "examples": [
             "غَــ",
             "ــغِــ",
@@ -659,7 +659,7 @@
     },
     {
         "letter": "ع",
-        "description": "",
+        "description": "It is formed in the middle part of the throat. The letter is pronounced as ¯\\_(ツ)_/¯.",
         "examples": [
             "عَــ",
             "ــعِــ",
@@ -694,7 +694,7 @@
     },
     {
         "letter": "د",
-        "description": "",
+        "description": "It is formed when the forefront of the back of the toungue touches the base of the front upper teeth. The letter is pronounced as /d/.",
         "examples": [
             "دَ",
             "ــدِ",
@@ -728,7 +728,7 @@
     },
     {
         "letter": "ض",
-        "description": "",
+        "description": "It is formed when the left or right edge of the tongue (or both together) touches the upper front teeth. The letter is pronounced as a heavy /d/.",
         "examples": [
             "ضَــ",
             "ــضِــ",
@@ -759,7 +759,7 @@
     },
     {
         "letter": "ذ",
-        "description": "",
+        "description": "It is formed when the forefront of the back of the toungue touches the tips of the upper front teeth. The letter is pronounced as 'dh' as in /this/.",
         "examples": [
             "ذَ",
             "ــذِ",
@@ -794,7 +794,7 @@
     },
     {
         "letter": "ظ",
-        "description": "",
+        "description": "It is formed when the forefront of the back of the toungue touches the tips of the upper front teeth. The letter is pronounced as a heavy /z/.",
         "examples": [
             "ظَــ",
             "ــظِــ",

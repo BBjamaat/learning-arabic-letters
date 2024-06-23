@@ -1,15 +1,26 @@
 import Word from "../word/word";
 import { Separator } from "@/components/ui/separator";
 import letters from "@/assets/letters.json";
+import alphabet from "@/assets/alphabet.json";
 
 
 const SectionLetters = () => {
     return (
         <div className="flex flex-col gap-6">
             {letters.map((letter, index) => {
+                const letterName = alphabet.find((l) => l.letter === letter.letter)?.traslation;
+
                 return (<>
                     <Separator className="mb-4" key={index + "sep"} />
                     <div className="flex flex-col gap-6 font-arabic text-4xl" key={index}>
+                        <div className="w-full text-center">
+                            <span className="text-2xl capitalize">
+                                {letterName}
+                            </span>
+                        </div>
+                        <div className="w-full text-sm px-6">
+                            {letter.description}
+                        </div>
                         <div className="w-full flex justify-evenly items-center flex-row-reverse text-red-500">
                             {letter.examples.map((ex, index) => <span key={index}>{ex}</span>)}
                         </div>
