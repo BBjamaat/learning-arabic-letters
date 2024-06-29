@@ -11,7 +11,7 @@ const BookTemplate = () => {
 
         <h1 className="text-center flex flex-col gap-4">
             <span className="text-4xl font-arabic">﷽</span>
-            <span className="text-xl">
+            <span className="text-sm">
                 In the name of Allah, the Most Gracious, the Most Merciful!
             </span>
         </h1>
