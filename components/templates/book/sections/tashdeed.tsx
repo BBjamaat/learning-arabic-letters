@@ -1,6 +1,7 @@
 import { Separator } from "@/components/ui/separator";
 import tashdeed from "@/assets/tashdeed.json";
 import TashdeedWord from "../word/word-tashdeed";
+import { Fragment } from "react";
 
 const SectionTashdeed = () => {
     return (<>
@@ -16,12 +17,11 @@ const SectionTashdeed = () => {
                 {tashdeed.examples.map((ex, index) => <span key={index}>{ex}</span>)}
             </div>
             <div className="w-full flex justify-evenly items-center flex-row-reverse">
-                {tashdeed.extraExamples.map((example, index) => (<>
-                    <TashdeedWord key={index} word={example} />
+                {tashdeed.extraExamples.map((example, index) => (<Fragment key={index}>
+                    <TashdeedWord word={example} />
                     {index < tashdeed.extraExamples.length - 1 &&
-                        <Separator orientation="vertical" className="w-[1px] h-16" key={index} />}
-                </>
-                ))}
+                        <Separator orientation="vertical" className="w-[1px] h-16" />}
+                </Fragment>))}
             </div>
             <div className="w-full flex justify-evenly items-center flex-row-reverse flex-wrap gap-16 p-6 font-arabic">
                 {tashdeed.practice.map((word, index) => (

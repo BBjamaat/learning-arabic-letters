@@ -2,6 +2,7 @@ import Word from "../word/word";
 import { Separator } from "@/components/ui/separator";
 import letters from "@/assets/letters.json";
 import alphabet from "@/assets/alphabet.json";
+import { Fragment } from "react";
 
 
 const SectionLetters = () => {
@@ -10,8 +11,8 @@ const SectionLetters = () => {
             {letters.map((letter, index) => {
                 const letterName = alphabet.find((l) => l.letter === letter.letter)?.traslation;
 
-                return (<>
-                    <Separator className="" key={index + "sep"} />
+                return (<Fragment key={index}>
+                    <Separator key={index + "sep"} />
                     <div className="flex flex-col gap-6 font-arabic text-4xl" key={index}>
                         <div className="w-full text-center">
                             <span className="text-2xl capitalize">
@@ -40,7 +41,7 @@ const SectionLetters = () => {
                             </div>
                         </>)}
                     </div >
-                </>)
+                </Fragment>)
             })}
         </div>
     )
