@@ -41,7 +41,7 @@ const MaadWord: FC<WordProps> = ({ word }) => {
                     );
                 })}
             </div>
-        </div >
+        </div>
     )
 }
 

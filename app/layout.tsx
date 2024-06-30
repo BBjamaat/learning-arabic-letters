@@ -1,14 +1,20 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { GithubIcon } from "lucide-react";
 import Link from "next/link";
+import Footer from "@/components/templates/footer";
+import { cn } from "@/lib/utils";
+import WorkInProgressLink from "@/components/templates/wip-link";
 
-const inter = Inter({ subsets: ["latin"] });
+const fontSans = FontSans({
+    subsets: ["latin"],
+    variable: "--font-sans",
+});
 
 export const metadata: Metadata = {
     title: "Learning Arabic Letters",
-    description: "Learn Arabic letters with ease using Muallim Sani method.",
+    description: "E-book that teaches reading arabic and tajweed following methods of Muallim Sani.",
 };
 
 export default function RootLayout({
@@ -17,21 +23,19 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning>
             <head>
                 <link rel="icon" type="image/png" href={`${process.env.BASE_PATH}/logo.png`} />
             </head>
-            <body className={inter.className}>
-                <div className="fixed top-0 right-0 bg-red-500 text-white p-2 z-50 rounded-l-sm flex flex-col align-middle items-center print:hidden">
-                    <div>Work In Progress</div>
-                    <Link
-                        className="bg-black rounded-[50%] w-6 h-6 flex items-center justify-center"
-                        href="https://github.com/BBjamaat/learning-arabic-letters"
-                    >
-                        <GithubIcon className="inline-block w-4 h-4" />
-                    </Link>
-                </div>
+            <body
+                className={cn(
+                    "min-h-screen bg-background font-sans antialiased mx-auto w-full max-w-3xl max-md:px-4 max-md:max-w-full",
+                    fontSans.variable,
+                )}
+            >
+                <WorkInProgressLink />
                 {children}
+                <Footer />
             </body>
         </html>
     );

@@ -23,7 +23,7 @@ const Word: FC<WordProps> = ({ word, letter }) => {
                     );
                 })}
             </div>
-        </div >
+        </div>
     )
 }
 

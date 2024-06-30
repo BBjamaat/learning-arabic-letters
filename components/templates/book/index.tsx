@@ -7,9 +7,8 @@ import SectionTanween from "./sections/tanween";
 
 
 const BookTemplate = () => {
-    return <div className="w-full max-w-3xl h-full m-auto p-4">
-
-        <h1 className="text-center flex flex-col gap-4">
+    return <>
+        <h1 className="text-center flex flex-col gap-4 mt-10">
             <span className="text-4xl font-arabic">﷽</span>
             <span className="text-sm">
                 In the name of Allah, the Most Gracious, the Most Merciful!
@@ -22,7 +21,7 @@ const BookTemplate = () => {
         <SectionPracticeMaad />
         <SectionTashdeed />
         <SectionTanween />
-    </div>
+    </>
 }
 
 export default BookTemplate;

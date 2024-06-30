@@ -2,33 +2,36 @@ import { Separator } from "@/components/ui/separator";
 import tashdeed from "@/assets/tashdeed.json";
 import TashdeedWord from "../word/word-tashdeed";
 import { Fragment } from "react";
+import Title from "@/components/atoms/title";
+import Description from "@/components/atoms/description";
+import Container from "@/components/atoms/container";
+import Examples from "@/components/atoms/examples";
 
 const SectionTashdeed = () => {
     return (<>
-        <Separator className="mb-4" />
-        <div>
-            <h2 className="text-center text-2xl font-arabic mb-2">Tashdeed</h2>
-            <p className="text-sm p-6">
+        <Separator className="my-10" />
+        <Container>
+            <Title>Tashdeed</Title>
+            <Description>
                 {tashdeed.description}
-            </p>
-        </div>
-        <div className="text-4xl flex flex-col gap-6">
-            <div className="w-full flex justify-evenly items-center flex-row-reverse text-red-500">
+            </Description>
+            <Examples className="text-red-500">
                 {tashdeed.examples.map((ex, index) => <span key={index}>{ex}</span>)}
-            </div>
-            <div className="w-full flex justify-evenly items-center flex-row-reverse">
+            </Examples>
+            <Examples className="mt-6">
                 {tashdeed.extraExamples.map((example, index) => (<Fragment key={index}>
                     <TashdeedWord word={example} />
-                    {index < tashdeed.extraExamples.length - 1 &&
+                    {(index < tashdeed.extraExamples.length - 1) &&
                         <Separator orientation="vertical" className="w-[1px] h-16" />}
                 </Fragment>))}
-            </div>
-            <div className="w-full flex justify-evenly items-center flex-row-reverse flex-wrap gap-16 p-6 font-arabic">
+            </Examples>
+            <Examples className="mt-6">
                 {tashdeed.practice.map((word, index) => (
                     <TashdeedWord key={index} word={word} />
                 ))}
-            </div>
-        </div>
+            </Examples>
+
+        </Container >
     </>)
 }
 
