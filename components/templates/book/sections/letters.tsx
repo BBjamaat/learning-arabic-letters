@@ -11,7 +11,7 @@ import Container from "@/components/atoms/container";
 
 const SectionLetters = () => {
     return letters.map((letter, index) => {
-        const letterName = alphabet.find((l) => l.letter === letter.letter)?.traslation || letter.letter;
+        const letterName = alphabet.find((l) => l.letter === letter.letter)?.transliteration || letter.letter;
 
         return (<Fragment key={index}>
             <Separator className="my-10" />

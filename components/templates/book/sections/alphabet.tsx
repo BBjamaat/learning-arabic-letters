@@ -9,7 +9,7 @@ const SectionAlphabet = () => {
                 {alphabet.map((letter, index) => (
                     <div key={index} className="flex flex-col gap-2 items-center">
                         <span className="text-4xl font-arabic">{letter.letter}</span>
-                        <span className="text-muted-foreground text-sm">{letter.traslation}</span>
+                        <span className="text-muted-foreground text-sm">{letter.transliteration}</span>
                     </div>
                 ))}
             </Examples>

@@ -1,118 +1,118 @@
 [
     {
         "letter": "ا",
-        "traslation": "alif"
+        "transliteration": "alif"
     },
     {
         "letter": "ب",
-        "traslation": "ba"
+        "transliteration": "ba"
     },
     {
         "letter": "ت",
-        "traslation": "ta"
+        "transliteration": "ta"
     },
     {
         "letter": "ث",
-        "traslation": "tha"
+        "transliteration": "tha"
     },
     {
         "letter": "ج",
-        "traslation": "jim"
+        "transliteration": "jim"
     },
     {
         "letter": "ح",
-        "traslation": "ha"
+        "transliteration": "ha"
     },
     {
         "letter": "خ",
-        "traslation": "kha"
+        "transliteration": "kha"
     },
     {
         "letter": "د",
-        "traslation": "dal"
+        "transliteration": "dal"
     },
     {
         "letter": "ذ",
-        "traslation": "dhal"
+        "transliteration": "dhal"
     },
     {
         "letter": "ر",
-        "traslation": "ra"
+        "transliteration": "ra"
     },
     {
         "letter": "ز",
-        "traslation": "zay"
+        "transliteration": "zay"
     },
     {
         "letter": "س",
-        "traslation": "sin"
+        "transliteration": "sin"
     },
     {
         "letter": "ش",
-        "traslation": "shin"
+        "transliteration": "shin"
     },
     {
         "letter": "ص",
-        "traslation": "sad"
+        "transliteration": "sad"
     },
     {
         "letter": "ض",
-        "traslation": "dad"
+        "transliteration": "dad"
     },
     {
         "letter": "ط",
-        "traslation": "ta"
+        "transliteration": "ta"
     },
     {
         "letter": "ظ",
-        "traslation": "za"
+        "transliteration": "za"
     },
     {
         "letter": "ع",
-        "traslation": "'ain"
+        "transliteration": "'ain"
     },
     {
         "letter": "غ",
-        "traslation": "ghain"
+        "transliteration": "ghain"
     },
     {
         "letter": "ف",
-        "traslation": "fa"
+        "transliteration": "fa"
     },
     {
         "letter": "ق",
-        "traslation": "qaf"
+        "transliteration": "qaf"
     },
     {
         "letter": "ك",
-        "traslation": "kaf"
+        "transliteration": "kaf"
     },
     {
         "letter": "ل",
-        "traslation": "lam"
+        "transliteration": "lam"
     },
     {
         "letter": "م",
-        "traslation": "mim"
+        "transliteration": "mim"
     },
     {
         "letter": "ن",
-        "traslation": "nun"
+        "transliteration": "nun"
     },
     {
         "letter": "و",
-        "traslation": "waw"
+        "transliteration": "waw"
     },
     {
         "letter": "ه",
-        "traslation": "ha"
+        "transliteration": "ha"
     },
     {
         "letter": "ء",
-        "traslation": "hamza"
+        "transliteration": "hamza"
     },
     {
         "letter": "ي",
-        "traslation": "ya"
+        "transliteration": "ya"
     }
 ]
