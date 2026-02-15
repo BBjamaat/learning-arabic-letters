@@ -14,3 +14,9 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Data
+
+Lesson content is stored as JSON files in [`assets/`](assets/) — alphabet, letters with diacritics, maad (long vowels), tanween, tashdeed, and practice exercises.
+
+![Preview](assets/preview.png)
